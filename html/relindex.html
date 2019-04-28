@@ -1,0 +1,336 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title></title>
+    <script src="../js/mui.min.js"></script>
+    <link href="../css/mui.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="../css/relindex.css" />
+    <link rel="stylesheet" href="../css/iconfont.css" />
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/swiper.min.css" />
+    <script type="text/javascript" src="../js/swiper.min.js" ></script>
+    <script type="text/javascript" src="../js/relindex.js" ></script>
+    <script type="text/javascript" charset="utf-8">
+      	mui.init();
+    </script>
+</head>
+<body>
+<div id="reli">
+	
+
+	<header class="mui-bar mui-bar-nav" id="relindex_header">
+	 <input class="rh_input"   value="搜索目的地景区/攻略"/>
+	 <img src="../img/relindex/headri.jpg"  style="width: 25%;">
+	</header>
+	<!--主体部分开始-->
+	<div class="mui-content" id="mainbody">
+		<!--1.轮播开始-->
+	    <div id="slider" class="mui-slider" >
+	      <div class="mui-slider-group mui-slider-loop">
+	        <!-- 额外增加的一个节点(循环轮播：第一个节点是最后一张轮播) -->
+	        <div class="mui-slider-item mui-slider-item-duplicate">
+	          <a href="#">
+	            <img src="../img/relindex/b4.jpg">
+	          </a>
+	        </div>
+	        <!-- 第一张 -->
+	        <div class="mui-slider-item">
+	          <a href="#">
+	            <img src="../img/relindex/b1.jpg">
+	          </a>
+	        </div>
+	        <!-- 第二张 -->
+	        <div class="mui-slider-item">
+	          <a href="#">
+	            <img src="../img/relindex/b2.jpg">
+	          </a>
+	        </div>
+	        <!-- 第三张 -->
+	        <div class="mui-slider-item">
+	          <a href="#">
+	            <img src="../img/relindex/b3.jpg">
+	          </a>
+	        </div>
+	        <!-- 第四张 -->
+	        <div class="mui-slider-item">
+	          <a href="#">
+	            <img src="../img/relindex/b4.jpg">
+	          </a>
+	        </div>
+	        <!-- 额外增加的一个节点(循环轮播：最后一个节点是第一张轮播) -->
+	        <div class="mui-slider-item mui-slider-item-duplicate">
+	          <a href="#">
+	            <img src="../img/relindex/b1.jpg">
+	          </a>
+	        </div>
+	      </div>
+	      <div class="mui-slider-indicator" id="lunbo_btn">
+	        <div class="mui-indicator mui-active" id="lunbo_btns1"></div>
+	        <div class="mui-indicator" id="lunbo_btns2"></div>
+	        <div class="mui-indicator" id="lunbo_btns3"></div>
+	        <div class="mui-indicator" id="lunbo_btns4"></div>
+	      </div>
+	    </div>
+	    <!--1.轮播结束-->
+	    <!--2.图标开始-->
+	    <div class="iconbox">
+	    	<ul>
+	    		<li>
+	    			<img src="../img/relindex/icon1.jpg" />
+	    			<span>服务</span>
+	    		</li>
+	    		<li>
+	    			<img src="../img/relindex/icon2.jpg" />
+	    			<span>商城</span>
+	    		</li>
+	    		<li>
+	    			<img src="../img/relindex/icon3.jpg" />
+	    			<span>自驾路线</span>
+	    		</li>
+	    		<li>
+	    			<img src="../img/relindex/icon4.jpg" />
+	    			<span>找厕所</span>
+	    		</li>
+	    		<li>
+	    			<img src="../img/relindex/icon5.jpg" />
+	    			<span>悟空租车</span>
+	    		</li>
+	    		<li>
+	    			<img src="../img/relindex/icon6.jpg" />
+	    			<span>景点</span>
+	    		</li>
+	    		<li>
+	    			<img src="../img/relindex/icon7.jpg" />
+	    			<span>攻略</span>
+	    		</li>
+	    		<li>
+	    			<img src="../img/relindex/icon8.jpg" />
+	    			<span>咨询</span>
+	    		</li>
+	    	</ul>
+	    </div>
+	    <!--2.图标结束-->
+	    <!--3.热门目的地开始-->
+	    <div class="hotplacebox">
+	    	<div class="hotmain">
+	    		<img src="../img/relindex/hottit.jpg" width="40%"/>
+	    		 <!-- Swiper -->
+				  <div class="swiper-container swiper1">
+				    <div class="swiper-wrapper ">
+				      <div class="swiper-slide" style="background-image:url(../img/relindex/hot1.jpg)" id="swiperimg1"><span class="hotword">黔东南</span></div>
+				      <div class="swiper-slide" style="background-image:url(../img/relindex/hot2.jpg)" id="swiperimg2"><span class="hotword">贵阳</span></div>
+				      <div class="swiper-slide" style="background-image:url(../img/relindex/hot3.jpg)" id="swiperimg3"><span class="hotword">大方</span></div>
+				      <div class="swiper-slide" style="background-image:url(../img/relindex/hot4.jpg)" id="swiperimg4"><span class="hotword">毕节</span></div>
+				      <div class="swiper-slide" style="background-image:url(../img/relindex/hot5.jpg)" id="swiperimg5"><span class="hotword">黔西南</span></div>
+				      <div class="swiper-slide" style="background-image:url(../img/relindex/hot6.jpg)" id="swiperimg6"><span class="hotword">遵义</span></div>
+				    </div>	
+				    <!-- Add Pagination -->
+				    <div class="swiper-pagination swiper-pagination1"></div>
+				    <!-- Add Arrows -->
+				    <div class="swiper-button-prev"></div>
+				    <div class="swiper-button-next"></div>
+				  </div>
+			</div>
+		</div>
+	    <!--3.热门目的地结束-->
+	    <!--4.最新活动开始-->
+	    <div class="hotplacebox">
+	    	<div class="hotmain">
+	    		<img src="../img/relindex/activetlt.jpg" width="45%"/>
+	    		<div id="huwaibox">
+	    			<img src="../img/relindex/huwai.jpg" />
+	    		</div>
+	    	</div>
+	    </div>
+	    <!--4.最新活动结束-->
+	    <!--5.特色美食开始-->
+	      <div class="hotplacebox">
+	    	<div class="hotmain">
+	    		<img src="../img/relindex/foodtlt.jpg" width="45%"/>
+	    		 <!-- Swiper -->
+				  <div class="swiper-container swiper2">
+				    <div class="swiper-wrapper">
+				      <div class="swiper-slide swiper-slides"><img src="../img/relindex/food1.jpg" style="width: 100%;"></div>
+				      <div class="swiper-slide swiper-slides"><img src="../img/relindex/food2.jpg" style="width: 100%;"></div>
+				      <div class="swiper-slide swiper-slides"><img src="../img/relindex/food3.jpg" style="width: 100%;"></div>
+				      <div class="swiper-slide swiper-slides"><img src="../img/relindex/food4.jpg" style="width: 100%;"></div>
+				      <div class="swiper-slide swiper-slides"><img src="../img/relindex/food1.jpg" style="width: 100%;"></div>
+				    </div>
+				    <!-- Add Pagination -->
+				    <div class="swiper-paginations swiper-paginations2"></div>
+				  </div>
+	    	</div>
+	    </div>
+	    <!--5.特色美食结束-->
+	    <!--6.当地玩乐开始-->
+	      <div class="hotplacebox" style="margin-bottom: 60px;">
+	    	<div class="hotmain">
+	    		<img src="../img/relindex/localtlt.jpg" width="45%"/>
+	    		<!--tab-->
+    		    <ul class="local_tab" id="local_tab">
+    		    	<li><a>旅游攻略</a></li>
+    		    	<li><a>自驾路线</a></li>
+    		    	<li><a>要闻</a></li>
+    		    	<li><a>赏美景</a></li>
+    		    </ul>
+    		    <div class="tap" id="divBox">
+					<div class="shows hidden">
+						<ul class="mui-table-view">
+						    <li class="mui-table-view-cell mui-media">
+						        <a href="javascript:;">
+						            <img id="content1"  class="mui-media-object mui-pull-left" src="../img/relindex/hot1.jpg">
+						            <div class="mui-media-body">
+						                　这里被誉为“中国最美的五大峰林”之一
+						                <p class="mui-ellipsis">千万座奇峰组成，气势宏大壮阔，山峰密集奇特，整体造型完美，被不少专家和游人誉为“天下奇观”。</p>
+						            </div>
+						        </a>
+						    </li>
+						    <li class="mui-table-view-cell mui-media">
+						        <a href="javascript:;">
+						            <img class="mui-media-object mui-pull-left" src="../img/relindex/hot2.jpg">
+						            <div class="mui-media-body">
+						               景区原生态自然景观给人净化和舒适之感
+						                <p class="mui-ellipsis">在浪漫的瀑布风光与清澈轰鸣的水声中，留下冬日的美好回忆。</p>
+						            </div>
+						        </a>
+						    </li>
+						    <li class="mui-table-view-cell mui-media">
+						        <a href="javascript:;">
+						            <img class="mui-media-object mui-pull-left" src="../img/relindex/hot3.jpg">
+						            <div class="mui-media-body">
+						               走进黔南，就像走进了五彩斑斓的画卷
+						                <p class="mui-ellipsis">地球上的绿宝石--荔波是如此的多姿多彩。定会让你内心没有烦躁</p>
+						            </div>
+						        </a>
+						    </li>
+						</ul>
+					</div>
+					<div class="hidden">
+						<ul class="mui-table-view">
+						    <li class="mui-table-view-cell mui-media">
+						        <a href="javascript:;">
+						            <img id="content1"  class="mui-media-object mui-pull-left" src="../img/relindex/hot4.jpg">
+						            <div class="mui-media-body">
+						                　这里被誉为“中国最美的五大峰林”之一
+						                <p class="mui-ellipsis">气势宏大壮阔，山峰密集奇特，整体造型完美，被不少专家和游人誉为“天下奇观”。</p>
+						            </div>
+						        </a>
+						    </li>
+						    <li class="mui-table-view-cell mui-media">
+						        <a href="javascript:;">
+						            <img class="mui-media-object mui-pull-left" src="../img/relindex/hot5.jpg">
+						            <div class="mui-media-body">
+						               景区原生态自然景观给人净化和舒适之感
+						                <p class="mui-ellipsis">在浪漫清澈轰鸣的水声中，留下冬日的美好回忆。</p>
+						            </div>
+						        </a>
+						    </li>
+						    <li class="mui-table-view-cell mui-media">
+						        <a href="javascript:;">
+						            <img class="mui-media-object mui-pull-left" src="../img/relindex/hot6.jpg">
+						            <div class="mui-media-body">
+						               走进黔南，就像走进了五彩斑斓的画卷
+						                <p class="mui-ellipsis">荔波是如此的多姿多彩。定会让你内心没有烦躁</p>
+						            </div>
+						        </a>
+						    </li>
+						</ul>
+					</div>
+					<div class="hidden">
+						<ul class="mui-table-view">
+						    <li class="mui-table-view-cell mui-media">
+						        <a href="javascript:;">
+						            <img id="content1"  class="mui-media-object mui-pull-left" src="../img/relindex/hot1.jpg">
+						            <div class="mui-media-body">
+						                　这里被誉为“中国最美的五大峰林”之一
+						                <p class="mui-ellipsis">千万座奇峰组成，气势宏大壮阔，山峰密集奇特，整体造型完美，被不少专家和游人誉为“天下奇观”。</p>
+						            </div>
+						        </a>
+						    </li>
+						    <li class="mui-table-view-cell mui-media">
+						        <a href="javascript:;">
+						            <img class="mui-media-object mui-pull-left" src="../img/relindex/hot2.jpg">
+						            <div class="mui-media-body">
+						               景区原生态自然景观给人净化和舒适之感
+						                <p class="mui-ellipsis">在浪漫的瀑布风光与清澈轰鸣的水声中，留下冬日的美好回忆。</p>
+						            </div>
+						        </a>
+						    </li>
+						    <li class="mui-table-view-cell mui-media">
+						        <a href="javascript:;">
+						            <img class="mui-media-object mui-pull-left" src="../img/relindex/hot3.jpg">
+						            <div class="mui-media-body">
+						               走进黔南，就像走进了五彩斑斓的画卷
+						                <p class="mui-ellipsis">地球上的绿宝石--荔波是如此的多姿多彩。定会让你内心没有烦躁</p>
+						            </div>
+						        </a>
+						    </li>
+						</ul>
+					</div>
+					<div class="hidden">
+						<ul class="mui-table-view">
+						    <li class="mui-table-view-cell mui-media">
+						        <a href="javascript:;">
+						            <img id="content1"  class="mui-media-object mui-pull-left" src="../img/relindex/hot6.jpg">
+						            <div class="mui-media-body">
+						                　这里被誉为“中国最美的五大峰林”之一
+						                <p class="mui-ellipsis">千万座奇峰组成，气势宏大壮阔，山峰密集奇特，整体造型完美，被不少专家和游人誉为“天下奇观”。</p>
+						            </div>
+						        </a>
+						    </li>
+						    <li class="mui-table-view-cell mui-media">
+						        <a href="javascript:;">
+						            <img class="mui-media-object mui-pull-left" src="../img/relindex/hot5.jpg">
+						            <div class="mui-media-body">
+						               景区原生态自然景观给人净化和舒适之感
+						                <p class="mui-ellipsis">在浪漫的瀑布风光与清澈轰鸣的水声中，留下冬日的美好回忆。</p>
+						            </div>
+						        </a>
+						    </li>
+						    <li class="mui-table-view-cell mui-media">
+						        <a href="javascript:;">
+						            <img class="mui-media-object mui-pull-left" src="../img/relindex/hot4.jpg">
+						            <div class="mui-media-body">
+						               走进黔南，就像走进了五彩斑斓的画卷
+						                <p class="mui-ellipsis">地球上的绿宝石--荔波是如此的多姿多彩。定会让你内心没有烦躁</p>
+						            </div>
+						        </a>
+						    </li>
+						</ul>
+					</div>
+				</div>
+	    		<!--tab-->
+	    	</div>
+	    </div>
+	    <!--6.当地玩乐结束-->
+	</div>
+	<!--主体部分结束-->
+	<nav class="mui-bar mui-bar-tab">
+	    <a class="mui-tab-item mui-active">
+	        <span class="mui-icon mui-icon-home"></span>
+	        <span class="mui-tab-label">首页</span>
+	    </a>
+	    <a class="mui-tab-item">
+	        <span class="mui-icon mui-icon-location"></span>
+	        <span class="mui-tab-label">目的地</span>
+	    </a>
+	    <a class="mui-tab-item">
+	        <span class="mui-icon mui-icon-email"></span>
+	        <span class="mui-tab-label">咨询</span>
+	    </a>
+	    <a class="mui-tab-item" open-type="common" href="xingcheng.html">
+	        <span class="mui-icon mui-icon-map"></span>
+	        <span class="mui-tab-label">行程</span>
+	    </a>
+	    <a class="mui-tab-item">
+	        <span class="mui-icon mui-icon-contact"></span>
+	        <span class="mui-tab-label">我的</span>
+	    </a>
+	</nav>
+</div>
+</body>
+</html>

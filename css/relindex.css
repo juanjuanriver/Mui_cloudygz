@@ -1,0 +1,173 @@
+/*tou star*/
+#mainbody{
+	background: #f1f1f1;
+}
+#relindex_header{
+	position: fixed;
+	width: 100%;
+	background:#01a0ea ;
+	height: 10%;
+	overflow: hidden;
+}
+#relindex_header>img{
+	display: inline-block;
+	width: 30%;
+	float: right;
+	margin-top: 20px;
+}
+.rh_input{
+	width:65%;
+	float: left;
+	font-size: 0.8em;
+	color: white;
+	margin:20px 15px;
+	padding:5px 15px;
+	border:1px solid #FFF;
+	background: #01a0ea;
+	border-radius: 15px;
+	/*background-image: url(../img/relindex/fangdajing.jpg) no-repeat left;
+	background-position: 30px 30px;*/
+}
+/*top end*/
+/*主体部分开始*/
+#lunbo_btn{
+    text-align: right;
+}
+#lunbo_btns1,#lunbo_btns2,#lunbo_btns3,#lunbo_btns4{
+	 width: 8px;
+     height: 8px;
+     /*background: #fff;*/
+}
+/*2.图标开始*/
+.iconbox{
+	width: 100%;
+}
+.iconbox>ul{
+	display: flex;
+	flex-wrap: wrap;
+	width: 95%;
+	background: #FFFFFF;
+	margin:0 auto;
+	margin-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 8px;
+}
+.iconbox>ul>li{
+	width: 25%;
+	margin-top: 15px;
+	
+}
+.iconbox>ul>li img{
+	width: 80%;
+}
+.iconbox>ul>li span{
+	display: block;
+	text-align: center;
+	font-weight:bold;
+	padding-top: 10px;
+}
+/*2.图标结束*/
+/*3.热门目的地开始*/
+/*tlt star*/
+.hotplacebox{
+	width: 100%;
+	margin-top: 10px;
+}
+.hotmain{
+	width: 95%;
+	background: #FFFFFF;
+	margin:0 auto;
+	padding-top: 22px;
+	border-radius: 8px;
+}
+.hotmain>img{
+	margin: 0 auto;
+}
+/*tlt end*/
+/*swiper*/
+ .swiper-container {
+  width: 88%;
+  height: 250px;
+  padding: 50px;
+}
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 90%;
+  position: relative;
+}
+#swiperimg1,#swiperimg2,#swiperimg3,#swiperimg4,#swiperimg5,#swiperimg6{
+	border-radius: 50%;
+}
+.hotword{
+	font-size: 1.5em;
+	position: absolute;
+	bottom: 5%;
+	color: blue;
+}
+/*swerper*/
+/*3.热门目的地结束*/
+/*4.最新活动开始*/
+#huwaibox{
+	width: 90%;
+	margin: 0 auto;
+}
+#huwaibox>img{
+	width: 100%;
+}
+/*4.最新活动结束*/
+/*5.特色美食开始*/
+.swiper2 {
+      width: 80%;
+      height: 80%;
+}
+.swiper-slides{
+     text-align: center;
+      font-size: 18px;
+      background: #fff;
+      width: 80%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+}
+/*5.特色美食结束*/
+/*6.当地玩乐开始*/
+.local_tab{
+	width: 95%;
+	margin: 0 auto;
+	display: flex;
+}
+.local_tab li{
+	width: 25%;
+	text-align: center;
+	border:1px solid  blue;
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+.local_tab li a{
+	font-size: 1.2em;
+	padding-top: 10px;
+}
+
+
+div.shows{
+	display: block;
+}
+.hidden{
+	display: none;
+}
+/*#content1{
+	width: 80%;
+}*/
+/*6.当地玩乐结束*/
+/*主体部分结束*/
