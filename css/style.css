@@ -60,6 +60,63 @@
 	width: 80%;
 }
 /*修改内容列表样式结束*/
+
+
+
+/*个人中心开始*/
+#minehead{
+	background: #01a0ea;
+}
+#minehead>h1{
+	font-size: 18px;
+	color: #FFFFFF;
+}
+#minehead>span{
+	color: #FFFFFF;
+	font-size: 18px;
+	line-height: 1.5em;
+}
+#mine_dang{
+	background: #F3F3F3;
+}
+#mine_dang>a{
+	font-size: 16px;
+}
+
+/*2.图标开始*/
+.mineiconbox>ul{
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	background: #FFFFFF;
+	margin:0 auto;
+	margin-top: 10px;
+}
+.mineiconbox>ul>li{
+	width: 25%;
+	margin-top: 15px;
+}
+.mineiconbox>ul>li img{
+	margin:0 auto;
+	width:74%;
+}
+.mineiconbox>ul>li span{
+	display: block;
+	text-align: center;
+	color: #a5a5a5;
+	font-size: 15px;
+}
+/*2.图标结束*/
+#minelist{
+	margin-top: 10px;
+}
+#minelist_desc{
+	font-size: 17px;
+	line-height: 2.5em;
+	color: #626262;
+}
+/*个人中心结束*/
+
 /*Ordernews*/
 .orne_d1{height: 280px;border-radius: 10px;background-color: #FFFFFF;}
 .orne_ddbh{font-size: 10px;color: #969896;}
@@ -153,6 +210,10 @@
 .tri_li_cardzh_p{font-size: 0.7em;}
 .tri_li_cardzh_dv{margin-left: 2em;}
 .tri_li_hr{border:none;border-top:1px dotted #6EB2E3;}
+
+
+
+
 /*trip-details*/
 .tripdetails_topbg{background:#6EB2E3;height: 100px;}
 .tripdetails_card{height: 200px;margin: 10px;border-radius: 10px;margin-top: -70px;background:#5592bd;}
