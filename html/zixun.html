@@ -11,6 +11,7 @@
 <link rel="stylesheet" type="text/css" href="../css/style.css"/>
 <link rel="stylesheet" type="text/css" href="../css/iconfont2.css"/>
 <script src="../js/mui.min.js"></script>
+<script src="../js/style.js"></script>
 </head>
 
 <body>
@@ -23,20 +24,20 @@
 	<div id="slider" class="mui-slider mui-fullscreen">
 		<div id="sliderSegmentedControl" class="mui-scroll-wrapper mui-slider-indicator mui-segmented-control mui-segmented-control-inverted background">
 			<div class="mui-scroll" style="margin-top: 5px;">
-				<a class="mui-control-item mui-active Shopping_leift" href="#item1mobile">
-					<span class="iconfont icon-home " style="font-size: 25px;"></span>
+				<a class="mui-control-item mui-active" href="#item1mobile">
+					<span class="iconfont icon-home " style="font-size: 15px;">七五普法</span>
 				</a>
-				<a class="mui-control-item Shopping_leift" href="#item2mobile" >
-					<span class="iconfont icon-qichepiao " style="font-size: 25px;"></span>
+				<a class="mui-control-item" href="#item2mobile" >
+					<span class="iconfont icon-qichepiao " style="font-size: 15px;">社会</span>
 				</a>
-				<a class="mui-control-item Shopping_leift" href="#item3mobile" >
-					<span class="iconfont icon-snacks " style="font-size: 25px;"></span>
+				<a class="mui-control-item" href="#item3mobile" >
+					<span class="iconfont icon-snacks " style="font-size: 15px;">美食</span>
 				</a>
-				<a class="mui-control-item Shopping_leift" href="#item4mobile" >
-					<span class="iconfont icon-yifu " style="font-size: 25px;"></span>
+				<a class="mui-control-item" href="#item4mobile" >
+					<span class="iconfont icon-yule " style="font-size: 15px;">音乐</span>
 				</a>
-				<a class="mui-control-item Shopping_leift" href="#item4mobile" >
-					<span class="iconfont icon-yule " style="font-size: 25px;"></span>
+				<a class="mui-control-item" href="#item5mobile" >
+					<span class="" style="font-size: 15px;">贵州</span>
 				</a>
 				
 			</div>
@@ -46,67 +47,43 @@
 				<div id="scroll1" class="mui-scroll-wrapper">
 					<div class="mui-scroll">
 						<ul class="mui-table-view">
-							<li class="mui-table-view-cell">
-								<div class="Shopping_bk">
-						
-									<!--<span class=" mui-pull-left" style="font-size: 35px;color: #525BA6;">
-										<img src="../img/zixun/yao1.jpg"  style="width: 50%;"/>
-									</span>
-									<span class="mui-pull-right Shopping_txt">总:￥4500</span>
-									<br>
-									<div class="Shopping_zbtop">
-										<span class="Shopping_zb mui-pull-left">出行占比:45%</span>
-										<span class="Shopping_zb mui-pull-right">查看详情</span>
-									</div>
-									<p class="mui-progressbar mui-progressbar-in" data-progress="20">
-										<span style="transform: translate3d(-55%, 0px, 0px);"></span>
-									</p>-->
-								</div>
-							</li>
-							<li class="mui-table-view-cell">
-								<div class="Shopping_bk">
-									<span class="iconfont icon-lingshi mui-pull-left" style="font-size: 35px;color:#F6909E;"></span>
-									<span class="mui-pull-right Shopping_txt">总:￥1500</span>
-									<br>
-									<div class="Shopping_zbtop">
-										<span class="Shopping_zb mui-pull-left">零食占比:15%</span>
-										<span class="Shopping_zb mui-pull-right">查看详情</span>
-									</div>
-									<p class="mui-progressbar mui-progressbar-in" data-progress="20">
-										<span style="transform: translate3d(-85%, 0px, 0px);"></span>
-									</p>
-								</div>
-							</li>
-							<li class="mui-table-view-cell">
-								<div class="Shopping_bk">
-									<span class="iconfont icon-Txuyifuyundongzhuang mui-pull-left" style="font-size: 35px;color:#0088CE;"></span>
-									<span class="mui-pull-right Shopping_txt">总:￥2000</span>
-									<br>
-									<div class="Shopping_zbtop">
-										<span class="Shopping_zb mui-pull-left">穿着占比:20%</span>
-										<span class="Shopping_zb mui-pull-right">查看详情</span>
-									</div>
-									<p class="mui-progressbar mui-progressbar-in" data-progress="20">
-										<span style="transform: translate3d(-80%, 0px, 0px);"></span>
-									</p>
-								</div>
-							</li>
-							<li class="mui-table-view-cell">
-								<div class="Shopping_bk">
-									<span class="iconfont icon-yule1 mui-pull-left" style="font-size: 35px;color:#06ba2b;"></span>
-									<span class="mui-pull-right Shopping_txt">总:￥2000</span>
-									<br>
-									<div class="Shopping_zbtop">
-										<span class="Shopping_zb mui-pull-left">娱乐占比:20%</span>
-										<span class="Shopping_zb mui-pull-right">查看详情</span>
-									</div>
-									<p class="mui-progressbar mui-progressbar-in" data-progress="20">
-										<span style="transform: translate3d(-80%, 0px, 0px);"></span>
-									</p>
-								</div>
-							</li>
-							
-						</ul>	
+						    <li class="mui-table-view-cell mui-media">
+						        <a href="javascript:;">
+						            <img class="mui-media-object mui-pull-left" id="listpics" src="../img/zixun/yao1.jpg">
+						            <div class="mui-media-body" id="listtlt">
+						                我国从1986以来，已完成了六个五年普法规划
+						                <p class="mui-ellipsis">各地各部门紧紧围绕党和国家工作大局，深入开展</p>
+						            </div>
+						        </a>
+						    </li>
+						    <li class="mui-table-view-cell mui-media">
+						        <a href="javascript:;">
+						            <img class="mui-media-object mui-pull-left" src="../img/zixun/yao2.jpg">
+						            <div class="mui-media-body" id="listtlt">
+						                广泛开展法律进机关、法律进乡村、法律进社区、法律进学校、法律进企业
+						                <p class="mui-ellipsis">法律进单位活动，扎实推进依法治理和创建活动</p>
+						            </div>
+						        </a>
+						    </li>
+						    <li class="mui-table-view-cell mui-media">
+						        <a href="javascript:;">
+						            <img class="mui-media-object mui-pull-left" src="../img/zixun/yao3.jpg">
+						            <div class="mui-media-body" id="listtlt">
+						                广大干部群众的法律意识明显增强，全社会法治化管理水平逐步
+						                <p class="mui-ellipsis">为实施依法治国基本方略、推进经济平稳较快发展</p>
+						            </div>
+						        </a>
+						    </li>
+						     <li class="mui-table-view-cell mui-media">
+						        <a href="javascript:;">
+						            <img class="mui-media-object mui-pull-left" src="../img/zixun/yao4.jpg">
+						            <div class="mui-media-body" id="listtlt">
+						                “七五”普法是2016—2020年第七个五年法制宣传教育的简称
+						                <p class="mui-ellipsis">是指从“一五”普法开始到现在正经历第七个五年的普法教育。</p>
+						            </div>
+						        </a>
+						    </li>
+						</ul>
 					</div>
 				</div>
 			</div>
@@ -114,72 +91,42 @@
 				<div class="mui-scroll-wrapper">
 					<div class="mui-scroll">
 						<ul class="mui-table-view">
-							<li class="mui-table-view-cell">
-								<div class="Shopping_bk1">
-									<span class="iconfont icon-goupiao mui-pull-left" style="font-size: 35px;color: #525BA6;"></span>
-									<span class="mui-pull-right Shopping_txt">￥200</span>
-									<br>
-									<div class="Shopping_zbtop">
-										<span class="Shopping_zb mui-pull-left">厦门住宿</span>
-										<span class="Shopping_zb mui-pull-right">2018-06-24</span>
-									</div>
-								</div>
-							</li>
-							<li class="mui-table-view-cell">
-								<div class="Shopping_bk1">
-									<span class="iconfont icon-goupiao mui-pull-left" style="font-size: 35px;color: #525BA6;"></span>
-									<span class="mui-pull-right Shopping_txt">￥300</span>
-									<br>
-									<div class="Shopping_zbtop">
-										<span class="Shopping_zb mui-pull-left">欢乐城</span>
-										<span class="Shopping_zb mui-pull-right">2018-06-24</span>
-									</div>
-								</div>
-							</li>
-							<li class="mui-table-view-cell">
-								<div class="Shopping_bk1">
-									<span class="iconfont icon-goupiao mui-pull-left" style="font-size: 35px;color: #525BA6;"></span>
-									<span class="mui-pull-right Shopping_txt">￥1000</span>
-									<br>
-									<div class="Shopping_zbtop">
-										<span class="Shopping_zb mui-pull-left">飞机票</span>
-										<span class="Shopping_zb mui-pull-right">2018-06-23</span>
-									</div>
-								</div>
-							</li>
-							<li class="mui-table-view-cell">
-								<div class="Shopping_bk1">
-									<span class="iconfont icon-goupiao mui-pull-left" style="font-size: 35px;color: #525BA6;"></span>
-									<span class="mui-pull-right Shopping_txt">￥2000</span>
-									<br>
-									<div class="Shopping_zbtop">
-										<span class="Shopping_zb mui-pull-left">九寨沟门票</span>
-										<span class="Shopping_zb mui-pull-right">2018-05-16</span>
-									</div>
-								</div>
-							</li>
-							<li class="mui-table-view-cell">
-								<div class="Shopping_bk1">
-									<span class="iconfont icon-goupiao mui-pull-left" style="font-size: 35px;color: #525BA6;"></span>
-									<span class="mui-pull-right Shopping_txt">￥600</span>
-									<br>
-									<div class="Shopping_zbtop">
-										<span class="Shopping_zb mui-pull-left">九寨沟住宿</span>
-										<span class="Shopping_zb mui-pull-right">2018-05-14</span>
-									</div>
-								</div>
-							</li>
-							<li class="mui-table-view-cell">
-								<div class="Shopping_bk1">
-									<span class="iconfont icon-goupiao mui-pull-left" style="font-size: 35px;color: #525BA6;"></span>
-									<span class="mui-pull-right Shopping_txt">￥400</span>
-									<br>
-									<div class="Shopping_zbtop">
-										<span class="Shopping_zb mui-pull-left">水世界</span>
-										<span class="Shopping_zb mui-pull-right">2018-05-02</span>
-									</div>
-								</div>
-							</li>
+						    <li class="mui-table-view-cell mui-media">
+						        <a href="javascript:;">
+						            <img class="mui-media-object mui-pull-left" id="listpics" src="../img/zixun/pu1.jpg">
+						            <div class="mui-media-body" id="listtlt">
+						                全市有接受教育能力的公民，都是法制宣传教育的对象
+						                <p class="mui-ellipsis">重点加强领导干部、公务员、青少年、企</p>
+						            </div>
+						        </a>
+						    </li>
+						    <li class="mui-table-view-cell mui-media">
+						        <a href="javascript:;">
+						            <img class="mui-media-object mui-pull-left" src="../img/zixun/pu2.jpg">
+						            <div class="mui-media-body" id="listtlt">
+						               经营管理人员和农民的法制宣传教育，领导干部和青少年是重中之重。
+						                <p class="mui-ellipsis">(1)观看电视法制栏目。(2)接受普法资料和学习法律知识。</p>
+						            </div>
+						        </a>
+						    </li>
+						    <li class="mui-table-view-cell mui-media">
+						        <a href="javascript:;">
+						            <img class="mui-media-object mui-pull-left" src="../img/zixun/pu3.jpg">
+						            <div class="mui-media-body" id="listtlt">
+						                “法律六进”指的是法制宣传教育进机关、进乡村、进社区
+						                <p class="mui-ellipsis">把法律知识作为机关学习的重要内容，</p>
+						            </div>
+						        </a>
+						    </li>
+						     <li class="mui-table-view-cell mui-media">
+						        <a href="javascript:;">
+						            <img class="mui-media-object mui-pull-left" src="../img/zixun/pu4.jpg">
+						            <div class="mui-media-body" id="listtlt">
+						                开展“送法进乡村”活动，做到法律宣传资料进乡村
+						                <p class="mui-ellipsis">法律进单位”活动，通过形式多样的法制教育和法治实践</p>
+						            </div>
+						        </a>
+						    </li>
 						</ul>
 					</div>
 				</div>
@@ -188,51 +135,42 @@
 				<div class="mui-scroll-wrapper">
 					<div class="mui-scroll">
 						<ul class="mui-table-view">
-							<li class="mui-table-view-cell">
-								<div class="Shopping_bk2">
-									<span class="iconfont icon-lingshi mui-pull-left" style="font-size: 35px;color: #F6909E;"></span>
-									<span class="mui-pull-right Shopping_txt">￥200</span>
-									<br>
-									<div class="Shopping_zbtop">
-										<span class="Shopping_zb mui-pull-left">小吃城</span>
-										<span class="Shopping_zb mui-pull-right">2018-06-24</span>
-									</div>
-								</div>
-							</li>
-							<li class="mui-table-view-cell">
-								<div class="Shopping_bk2">
-									<span class="iconfont icon-lingshi mui-pull-left" style="font-size: 35px;color:#F6909E;"></span>
-									<span class="mui-pull-right Shopping_txt">￥500</span>
-									<br>
-									<div class="Shopping_zbtop">
-										<span class="Shopping_zb mui-pull-left">万达</span>
-										<span class="Shopping_zb mui-pull-right">2018-06-24</span>
-									</div>
-								</div>
-							</li>
-							<li class="mui-table-view-cell">
-								<div class="Shopping_bk2">
-									<span class="iconfont icon-lingshi mui-pull-left" style="font-size: 35px;color:#F6909E;"></span>
-									<span class="mui-pull-right Shopping_txt">￥300</span>
-									<br>
-									<div class="Shopping_zbtop">
-										<span class="Shopping_zb mui-pull-left">美食街</span>
-										<span class="Shopping_zb mui-pull-right">2018-06-23</span>
-									</div>
-								</div>
-							</li>
-							<li class="mui-table-view-cell">
-								<div class="Shopping_bk2">
-									<span class="iconfont icon-lingshi mui-pull-left" style="font-size: 35px;color:#F6909E;"></span>
-									<span class="mui-pull-right Shopping_txt">￥500</span>
-									<br>
-									<div class="Shopping_zbtop">
-										<span class="Shopping_zb mui-pull-left">傲世牛排</span>
-										<span class="Shopping_zb mui-pull-right">2018-05-16</span>
-									</div>
-								</div>
-							</li>
-							
+						    <li class="mui-table-view-cell mui-media">
+						        <a href="javascript:;">
+						            <img class="mui-media-object mui-pull-left" id="listpics" src="../img/zixun/mei1.jpg">
+						            <div class="mui-media-body" id="listtlt">
+						               丝娃娃：首先要给大家说的就是丝娃娃，
+						                <p class="mui-ellipsis">在进店以前要先把手洗干净，如何就可以坐在木头的小板凳上面，在眼前的七盘八碟所摆开地势，面皮放在手里面，举起筷子</p>
+						            </div>
+						        </a>
+						    </li>
+						    <li class="mui-table-view-cell mui-media">
+						        <a href="javascript:;">
+						            <img class="mui-media-object mui-pull-left" src="../img/zixun/mei2.jpg">
+						            <div class="mui-media-body" id="listtlt">
+						                荞灰粽子：灰粽子可以说是贵州的一种特有的粽子
+						                <p class="mui-ellipsis">在这一个盘子里夹一点，别的盘子里夹一点，最厉害的就是在每一个盘子里都夹一点。</p>
+						            </div>
+						        </a>
+						    </li>
+						    <li class="mui-table-view-cell mui-media">
+						        <a href="javascript:;">
+						            <img class="mui-media-object mui-pull-left" src="../img/zixun/mei3.jpg">
+						            <div class="mui-media-body" id="listtlt">
+						              冰粉：如果是在炎热难耐的夏天，正好是在口干
+						                <p class="mui-ellipsis">来上一小碗冰粉，就像是果冻一样那么的平滑，冰冷的，甜甜的一碗。这一碗吃下来</p>
+						            </div>
+						        </a>
+						    </li>
+						     <li class="mui-table-view-cell mui-media">
+						        <a href="javascript:;">
+						            <img class="mui-media-object mui-pull-left" src="../img/zixun/mei4.jpg">
+						            <div class="mui-media-body" id="listtlt">
+						                烤马铃薯：贵州人所烤出来的马铃薯可以说是一
+						                <p class="mui-ellipsis">首先就是把马铃薯放在在铁炉中央的那个圆盖子上面，</p>
+						            </div>
+						        </a>
+						    </li>
 						</ul>
 					</div>
 				</div>
@@ -241,51 +179,47 @@
 				<div class="mui-scroll-wrapper">
 					<div class="mui-scroll">
 						<ul class="mui-table-view">
-							<li class="mui-table-view-cell">
-								<div class="Shopping_bk3">
-									<span class="iconfont icon-Txuyifuyundongzhuang mui-pull-left" style="font-size: 35px;color:#0088CE;"></span>
-									<span class="mui-pull-right Shopping_txt">￥500</span>
-									<br>
-									<div class="Shopping_zbtop">
-										<span class="Shopping_zb mui-pull-left">海澜之家</span>
-										<span class="Shopping_zb mui-pull-right">2018-06-24</span>
-									</div>
-								</div>
-							</li>
-							<li class="mui-table-view-cell">
-								<div class="Shopping_bk3">
-									<span class="iconfont icon-Txuyifuyundongzhuang mui-pull-left" style="font-size: 35px;color:#0088CE;"></span>
-									<span class="mui-pull-right Shopping_txt">￥500</span>
-									<br>
-									<div class="Shopping_zbtop">
-										<span class="Shopping_zb mui-pull-left">海澜之家</span>
-										<span class="Shopping_zb mui-pull-right">2018-06-24</span>
-									</div>
-								</div>
-							</li>
-							<li class="mui-table-view-cell">
-								<div class="Shopping_bk3">
-									<span class="iconfont icon-Txuyifuyundongzhuang mui-pull-left" style="font-size: 35px;color:#0088CE;"></span>
-									<span class="mui-pull-right Shopping_txt">￥500</span>
-									<br>
-									<div class="Shopping_zbtop">
-										<span class="Shopping_zb mui-pull-left">海澜之家</span>
-										<span class="Shopping_zb mui-pull-right">2018-06-23</span>
-									</div>
-								</div>
-							</li>
-							<li class="mui-table-view-cell">
-								<div class="Shopping_bk3">
-									<span class="iconfont icon-Txuyifuyundongzhuang mui-pull-left" style="font-size: 35px;color:#0088CE;"></span>
-									<span class="mui-pull-right Shopping_txt">￥500</span>
-									<br>
-									<div class="Shopping_zbtop">
-										<span class="Shopping_zb mui-pull-left">海澜之家</span>
-										<span class="Shopping_zb mui-pull-right">2018-05-16</span>
-									</div>
-								</div>
-							</li>
-							
+						    <li class="mui-table-view-cell mui-media">
+						        <a href="javascript:;">
+						            <img class="mui-media-object mui-pull-left" id="listpics" src="../img/zixun/gui1.jpg">
+						            <div class="mui-media-body" id="listtlt">
+						              <audio controls loop>
+										<source type="audio/mp3"src="../1.mp3"></source>
+									  </audio>
+						            </div>
+						        </a>
+						    </li>
+						    <li class="mui-table-view-cell mui-media">
+						        <a href="javascript:;">
+						            <img class="mui-media-object mui-pull-left" src="../img/zixun/gui2.jpg">
+						            <div class="mui-media-body" id="listtlt">
+						               <audio controls loop>
+										<source type="audio/mp3"src="../2.mp3"></source>
+									  </audio>
+						            </div>
+						        </a>
+						    </li>
+						    <li class="mui-table-view-cell mui-media">
+						        <a href="javascript:;">
+						            <img class="mui-media-object mui-pull-left" src="../img/zixun/gui3.jpg">
+						            <div class="mui-media-body" id="listtlt">
+						              <audio controls loop>
+										<source type="audio/mp3"src="../3.mp3"></source>
+									  </audio>
+									  
+						            </div>
+						        </a>
+						    </li>
+						     <li class="mui-table-view-cell mui-media">
+						        <a href="javascript:;">
+						            <img class="mui-media-object mui-pull-left" src="../img/zixun/gui4.jpg">
+						            <div class="mui-media-body" id="listtlt">
+						               <audio controls loop>
+										<source type="audio/mp3"src="../4.mp3"></source>
+									  </audio>
+						            </div>
+						        </a>
+						    </li>
 						</ul>
 					</div>
 				</div>
@@ -294,40 +228,42 @@
 				<div class="mui-scroll-wrapper">
 					<div class="mui-scroll">
 						<ul class="mui-table-view">
-							<li class="mui-table-view-cell">
-								<div class="Shopping_bk4">
-									<span class="iconfont icon-yule1 mui-pull-left" style="font-size: 35px;color:#06ba2b ;"></span>
-									<span class="mui-pull-right Shopping_txt">￥500</span>
-									<br>
-									<div class="Shopping_zbtop">
-										<span class="Shopping_zb mui-pull-left">KTV</span>
-										<span class="Shopping_zb mui-pull-right">2018-06-24</span>
-									</div>
-								</div>
-							</li>
-							<li class="mui-table-view-cell">
-								<div class="Shopping_bk4">
-									<span class="iconfont icon-yule1 mui-pull-left" style="font-size: 35px;color:#06ba2b ;"></span>
-									<span class="mui-pull-right Shopping_txt">￥500</span>
-									<br>
-									<div class="Shopping_zbtop">
-										<span class="Shopping_zb mui-pull-left">ps4</span>
-										<span class="Shopping_zb mui-pull-right">2018-06-24</span>
-									</div>
-								</div>
-							</li>
-							<li class="mui-table-view-cell">
-								<div class="Shopping_bk4">
-									<span class="iconfont icon-yule1 icon-lingshi mui-pull-left" style="font-size: 35px;color:#06ba2b ;"></span>
-									<span class="mui-pull-right Shopping_txt">￥500</span>
-									<br>
-									<div class="Shopping_zbtop">
-										<span class="Shopping_zb mui-pull-left">任天堂</span>
-										<span class="Shopping_zb mui-pull-right">2018-06-23</span>
-									</div>
-								</div>
-							</li>
-							
+						    <li class="mui-table-view-cell mui-media">
+						        <a href="javascript:;">
+						            <img class="mui-media-object mui-pull-left" id="listpics" src="../img/zixun/mei1.jpg">
+						            <div class="mui-media-body" id="listtlt">
+						               丝娃娃：首先要给大家说的就是丝娃娃，
+						                <p class="mui-ellipsis">在进店以前要先把手洗干净，如何就可以坐在木头的小板凳上面，在眼前的七盘八碟所摆开地势，面皮放在手里面，举起筷子</p>
+						            </div>
+						        </a>
+						    </li>
+						    <li class="mui-table-view-cell mui-media">
+						        <a href="javascript:;">
+						            <img class="mui-media-object mui-pull-left" src="../img/zixun/mei2.jpg">
+						            <div class="mui-media-body" id="listtlt">
+						                荞灰粽子：灰粽子可以说是贵州的一种特有的粽子
+						                <p class="mui-ellipsis">在这一个盘子里夹一点，别的盘子里夹一点，最厉害的就是在每一个盘子里都夹一点。</p>
+						            </div>
+						        </a>
+						    </li>
+						    <li class="mui-table-view-cell mui-media">
+						        <a href="javascript:;">
+						            <img class="mui-media-object mui-pull-left" src="../img/zixun/mei3.jpg">
+						            <div class="mui-media-body" id="listtlt">
+						              冰粉：如果是在炎热难耐的夏天，正好是在口干
+						                <p class="mui-ellipsis">来上一小碗冰粉，就像是果冻一样那么的平滑，冰冷的，甜甜的一碗。这一碗吃下来</p>
+						            </div>
+						        </a>
+						    </li>
+						     <li class="mui-table-view-cell mui-media">
+						        <a href="javascript:;">
+						            <img class="mui-media-object mui-pull-left" src="../img/zixun/mei4.jpg">
+						            <div class="mui-media-body" id="listtlt">
+						                烤马铃薯：贵州人所烤出来的马铃薯可以说是一
+						                <p class="mui-ellipsis">首先就是把马铃薯放在在铁炉中央的那个圆盖子上面，</p>
+						            </div>
+						        </a>
+						    </li>
 						</ul>
 					</div>
 				</div>
@@ -341,43 +277,53 @@
 	</div>
 	
 </div>
-
+<script type="text/javascript" src="../js/mui.pullToRefresh.js" ></script>
 <script>
+	
 	mui.init();
-	(function($) {
-		//阻尼系数
-		var deceleration = mui.os.ios?0.003:0.0009;
-		$('.mui-scroll-wrapper').scroll({
-			bounce: false,
-			indicators: true, //是否显示滚动条
-			deceleration:deceleration
-		});
-	})(mui);
+			(function($) {
+				//阻尼系数
+				var deceleration = mui.os.ios?0.003:0.0009;
+				$('.mui-scroll-wrapper').scroll({
+					bounce: false,
+					indicators: true, //是否显示滚动条
+					deceleration:deceleration
+				});
+				$.ready(function() {
+					//循环初始化所有下拉刷新，上拉加载。
+					$.each(document.querySelectorAll('.mui-slider-group .mui-scroll'), function(index, pullRefreshEl) {
+						$(pullRefreshEl).pullToRefresh({
+						   container: '#pullrefresh',
+							up: {
+								contentrefresh: '正在加载...',
+//								contentrefresh: '马上出来....',
+								callback: function() {
+									var self = this;
+									setTimeout(function() {
+										var ul = self.element.querySelector('.mui-table-view');
+										ul.appendChild(createFragment(ul, index, 5));
+										self.endPullUpToRefresh();
+									}, 1000);
+								}
+							}
+						});
+					});
+					var createFragment = function(ul, index, count, reverse) {
+						var length = ul.querySelectorAll('li').length;
+						var fragment = document.createDocumentFragment();
+						var li;
+						for (var i = 0; i < count; i++) {
+							li = document.createElement('li');
+							li.className = 'mui-table-view-cell';
+							li.innerHTML = '第' + (index + 1) + '个选项卡子项-' + (length + (reverse ? (count - i) : (i + 1)));
+							fragment.appendChild(li);
+						}
+						return fragment;
+					};
+				});
+			})(mui);
 	
-	mui.init({
-		swipeBack: true //启用右滑关闭功能
-	});
-	mui('.mui-scroll-wrapper').scroll();
-	mui('body').on('shown', '.mui-popover', function(e) {
-		//console.log('shown', e.detail.id);//detail为当前popover元素
-	});
-	mui('body').on('hidden', '.mui-popover', function(e) {
-		//console.log('hidden', e.detail.id);//detail为当前popover元素
-	});
 	
-	
-	
-	function plusReady(){
-	// 设置系统状态栏背景为蓝色
-	plus.navigator.setStatusBarBackground( "#00C4CB" );
-	// 设置系统状态栏样式为浅色文字
-	plus.navigator.setStatusBarStyle( "UIStatusBarStyleBlackOpaque" );
-	}
-	if(window.plus){
-	plusReady();
-	}else{
-	document.addEventListener("plusready",plusReady,false);
-}
 </script>
 </body>
 

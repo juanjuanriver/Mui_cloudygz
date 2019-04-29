@@ -38,14 +38,28 @@
 	border-radius: 5px;border-top: #93c0f1 4px solid;
 	margin: 10px;padding: 30px;
 	}
-.Shopping_bk1{border: #6B8698 1px solid;height: auto;border-radius: 5px;border-top:#848ac0 4px solid;margin: 10px;padding: 30px;}
-.Shopping_bk2{border: #6B8698 1px solid;height: auto;border-radius: 5px;border-top:#F6909E 4px solid;margin: 10px;padding: 30px;}
-.Shopping_bk3{border: #6B8698 1px solid;height: auto;border-radius: 5px;border-top:#0088CE 4px solid;margin: 10px;padding: 30px;}
-.Shopping_bk4{border: #6B8698 1px solid;height: auto;border-radius: 5px;border-top:#06ba2b 4px solid;margin: 10px;padding: 30px;}
-.Shopping_leift{margin-left: 3%;}
+.Shopping_bk1,.Shopping_bk2,.Shopping_bk3,.Shopping_bk4{
+	border: #6B8698 1px solid;
+	height: auto;
+	border-radius: 5px;
+	border-top:#848ac0 4px solid;
+	margin: 10px;
+	padding: 30px;
+	}
 .Shopping_txt{color:#FAA7AA;font-size: 20px;}
-.Shopping_zb{font-size: 13px;}
+/*.Shopping_zb{font-size: 15px;}*/
 .Shopping_zbtop{margin-top: 15px;}
+/*修改内容列表样式开始*/
+#listtlt{
+	font-size: 18px;
+}
+#listtlt>p{
+	font-size: 15px;
+}
+#listpics{
+	width: 80%;
+}
+/*修改内容列表样式结束*/
 /*Ordernews*/
 .orne_d1{height: 280px;border-radius: 10px;background-color: #FFFFFF;}
 .orne_ddbh{font-size: 10px;color: #969896;}
