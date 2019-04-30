@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
     <meta name="apple-mobile-web-app-capable" content="yes">
-		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
     <title></title>
     <script src="../js/mui.min.js"></script>
     <link href="../css/mui.min.css" rel="stylesheet"/>
@@ -20,8 +20,6 @@
 </head>
 <body>
 <div id="reli">
-	
-
 	<header class="mui-bar mui-bar-nav" id="relindex_header">
 	 <input class="rh_input"   value="搜索目的地景区/攻略"/>
 	 <img src="../img/relindex/headri.jpg"  style="width: 25%;">
@@ -172,7 +170,7 @@
 	    		<img src="../img/relindex/localtlt.jpg" width="45%"/>
 	    		<!--tab-->
     		    <ul class="local_tab" id="local_tab">
-    		    	<li><a>旅游攻略</a></li>
+    		    	<li class="food_on"><a class="food_on1">旅游攻略</a></li>
     		    	<li><a>自驾路线</a></li>
     		    	<li><a>要闻</a></li>
     		    	<li><a>赏美景</a></li>
@@ -304,7 +302,13 @@
 					</div>
 				</div>
 	    		<!--tab-->
-	    	</div>
+	    		<div id="rel_more">
+		    		<button type="button" class="mui-btn mui-btn-outlined">
+		    			查看更多
+		    		</button>
+	    	    </div>
+	     </div>
+	  	
 	    </div>
 	    <!--6.当地玩乐结束-->
 	</div>
@@ -314,7 +318,7 @@
 	        <span class="mui-icon mui-icon-home"></span>
 	        <span class="mui-tab-label">首页</span>
 	    </a>
-	    <a class="mui-tab-item">
+	    <a class="mui-tab-item" open-type="common" href="mudi.html">
 	        <span class="mui-icon mui-icon-location"></span>
 	        <span class="mui-tab-label">目的地</span>
 	    </a>

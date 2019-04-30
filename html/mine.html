@@ -8,7 +8,6 @@
 <link rel="stylesheet" href="../css/reset.css" />
 <link rel="stylesheet" type="text/css" href="../css/style.css"/>
 <script src="../js/mui.min.js"></script>
-<script type="text/javascript" src="../js/style.js" ></script>
 </head>
 <body>
 	<header class="mui-bar mui-bar-nav" id="minehead">
@@ -107,5 +106,14 @@
 			</a>
 		</li>
 	</ul>
+	<script type="text/javascript">
+	  //login
+		document.getElementById("denglu").addEventListener('tap',function(){
+	    mui.openWindow({
+	      url:'login.html',
+	      id:'lg_body',
+	    })
+	})
+</script>
 </body>
 </html>

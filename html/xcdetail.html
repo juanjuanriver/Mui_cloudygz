@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	<link href="../css/mui.min.css" rel="stylesheet" />
+	<link rel="stylesheet" type="text/css" href="../css/style.css"/>
+	<link rel="stylesheet" type="text/css" href="../css/iconfont1.css"/>
+</head>
+<body id="trip_detail">
+	<header class="mui-bar mui-bar-nav" id="xzdetail_head">
+	    <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left business_topbg_icon"></a>
+	    <h1 class="mui-title index_title" >行程详情</h1>
+	</header>
+	<div class="mui-content">
+		<!--顶部背景-->
+	    <div class="tripdetails_topbg"></div>
+	    <!--行程信息卡片-->
+	    <div class="tripdetails_card">
+	    	<div class="tripdetails_card_a mui-card-footer">
+	    		<span>厦门北 <br><p>09:50</p></span>
+	    		<span class="iconfont icon-jt_gaotie text-align tripdetails_card_span">
+	    			经停信息<br><p>G 1669</p>
+	    		</span>
+	    		<span>毕节<br><p>14:50</p></span>
+	    	</div>
+	    	<div class="mui-card-footer tripdetails_card_text">
+	    		<span>吉祥兽</span>
+	    		<span>二等座 ￥66</span>
+	    	</div>
+	    	<div class="mui-card-footer tripdetails_card_text" style="margin-top: -13px;">
+	    		<span>身份证3725***354</span>
+	    		<span>04车14F</span>
+	    	</div>
+	    	<div class="mui-card-footer tripdetails_card_text">
+	    		<span class="text-danhongse">购票成功</span>
+	    		<span>
+	    			<button type="button" class="mui-btn mui-btn-outlined index_title">退票</button>
+	    			<button type="button" class="mui-btn mui-btn-warning mui-btn-outlined">改签</button>
+	    		</span>
+	    	</div>
+	    </div>
+	    <!--酒店预订等-->
+	    <ul class="mui-table-view tripdetails_ul">
+		    <li class="mui-table-view-cell">
+		    	<span class="iconfont icon-car tripdetails_span1"style="font-size: 20px;"></span>
+		    	滴滴打车
+		    	<button type="button" class="mui-btn mui-btn-primary mui-btn-outlined mui-pull-right">预定</button>
+		    </li>
+		    <li class="mui-table-view-cell">
+		    	<span class="iconfont icon-jiudian tripdetails_span1"style="font-size: 20px;"></span>
+		    	星级酒店
+		    	<button type="button" class="mui-btn mui-btn-primary mui-btn-outlined mui-pull-right">预定</button>
+		    </li>
+		    <li class="mui-table-view-cell">
+		    	<span class="iconfont icon-lvyou tripdetails_span1"style="font-size: 20px;"></span>
+		    	旅游景点
+		    	<button type="button" class="mui-btn mui-btn-primary mui-btn-outlined mui-pull-right">预定</button>
+		    </li>
+		</ul>
+		<ul class="mui-table-view tripdetails_ul">
+		    <li class="mui-table-view-cell">常见问题</li>
+		    <li class="mui-table-view-cell">
+		        <a class="mui-navigate-right"><p>如何成功退票</p></a>
+		    </li>
+		    <li class="mui-table-view-cell">
+		        <a class="mui-navigate-right"><p>改签要注意什么</p></a>
+		    </li>
+		    <li class="mui-table-view-cell">
+		        <a class="mui-navigate-right"><p>有哪些取票方式</p></a>
+		    </li>
+		    <li class="mui-table-view-cell">
+		        <a class="mui-navigate-right"><p>取票不成功怎么办</p></a>
+		    </li>
+		</ul>
+	</div>
+	<script src="../js/mui.min.js"></script>
+	<script type="text/javascript">
+		mui.init();
+		function plusReady(){
+		// 设置系统状态栏背景为蓝色
+		plus.navigator.setStatusBarBackground( "#6EB2E3" );
+		// 设置系统状态栏样式为浅色文字
+		plus.navigator.setStatusBarStyle( "UIStatusBarStyleBlackOpaque" );
+		}
+		if(window.plus){
+		plusReady();
+		}else{
+		document.addEventListener("plusready",plusReady,false);
+	}
+	</script>
+</body>
+
+</html>

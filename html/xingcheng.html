@@ -9,23 +9,11 @@
 <link rel="stylesheet" type="text/css" href="../css/style.css"/>
 <link rel="stylesheet" type="text/css" href="../css/iconfont1.css"/>
 <script src="../js/mui.min.js"></script>
-<style type="text/css">
-	.mui-bar{background-color: #01a0ea;}
-	.mui-bar-nav{box-shadow: 0 0px 0px #ccc;}
-	.mui-table-view:after{ height:0}
-	.mui-table-view:before{ height:0}
-	.mui-table-view-cell{position: static;}
-	.mui-table-view{position: static;}
-</style>
- <script type="text/javascript" charset="utf-8">
-      	mui.init();
-    </script>
 </head>
-
 <body>
-	<header class="mui-bar mui-bar-nav">
+	<header class="mui-bar mui-bar-nav"  style="background-color: #01a0ea;">
 	    <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left index_title" style="color: #FFFFFF;"></a>
-	    <h1 class="mui-title index_title" style="color: #FFFFFF;">我的行程</h1>
+	    <h1 class="mui-title index_title" style="color: #FFFFFF;font-size: 18px;">我的行程</h1>
 	</header>
 	<div class="mui-content">
 	    <ul class="mui-table-view trip_ul">
@@ -40,10 +28,10 @@
 		    			</div>
 		    		</div>
 		    		<!--右边边白色部分-->
-		    		<div class="tri_li_right">
-		    			<span class="mui-icon mui-icon-location">毕节</span>
+		    		<div class="tri_li_right" id="bijie">
+		    			<span class="mui-icon mui-icon-location">厦门北</span>
 		    			<hr class="tri_li_hr"/>
-		    			<span class="mui-icon mui-icon-paperplane"> 厦门北</span>
+		    			<span class="mui-icon mui-icon-paperplane">毕节 </span>
 		    			<div class="tri_li_cardzh">
 		    				<div class="mui-pull-left">
 		    					<p class="tri_li_cardzh_p">车厢</p>
@@ -128,21 +116,15 @@
 		    
 		</ul>
 	</div>
-	
-	<script type="text/javascript">
-		mui.init();
-		function plusReady(){
-		// 设置系统状态栏背景为蓝色
-		plus.navigator.setStatusBarBackground( "#6eb2e3" );
-		// 设置系统状态栏样式为浅色文字
-		plus.navigator.setStatusBarStyle( "UIStatusBarStyleBlackOpaque" );
-		}
-		if(window.plus){
-		plusReady();
-		}else{
-		document.addEventListener("plusready",plusReady,false);
-	}
-	</script>
+<script type="text/javascript">
+//引入子页
+	document.getElementById("bijie").addEventListener('tap',function(){
+	    mui.openWindow({
+	      url:'xcdetail.html',
+	      id:'trip_detail',
+	    })
+	})
+</script>
 </body>
 
 </html>

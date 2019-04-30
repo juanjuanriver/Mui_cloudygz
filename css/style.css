@@ -89,36 +89,6 @@
 }
 /*个人中心结束*/
 
-/*Ordernews*/
-.orne_d1{height: 280px;border-radius: 10px;background-color: #FFFFFF;}
-.orne_ddbh{font-size: 10px;color: #969896;}
-.orne_li{width: 50%;float: left;}
-.orne_name{padding: 10px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
-.orne_fahuo{padding: 10px;font-size: 12px;margin-top: -15px;overflow: hidden;}
-.orne_spfh{color:#EC971F;border: #EC971F 1px solid; }
-.orne_hj{font-size: 13px;padding-left: 10px;}
-.orne_ckwl{border-top:#e2e2e2 1px solid;}
-.orne
-.orne
-.orne
-.orne
-
-
-
-
-
-
-
-
-/*界面二*/
-.index2_div{height: 70px;width: 10px;border-top-left-radius: 20px;border-bottom-left-radius: 20px;background: #97f3aa;float: left;position:}
-.index2_float{float: left;}
-.index2_img{width: 66px;height: 66px;margin-left: 10px;margin-top: 2px;position:}
-
-/*rhead*/
- .read_span{color: #FF0000;}
- .read_div{border: #2AC845 1px solid;height: auto;}
- .read_div1{background: #2AC845;height: 30px;text-align: center;color: #FFFFFF;padding: 3px 0px;}
 
 /*登录开始*/
 .lg_div{
@@ -157,12 +127,6 @@ input[type=color], input[type=date], input[type=datetime-local], input[type=date
 .login_qita>p{
 	color:  #01a0ea;
 }
-.login_qita>p>i{
-	display: inline-block;
-	width: 28px;
-	height: 1px;
-	background: #01a0ea;
-}
 .login_qita>ul{
 	margin-top: 20px;
 }
@@ -174,144 +138,139 @@ input[type=color], input[type=date], input[type=datetime-local], input[type=date
 
 
 
-/*
- * Aritcle
- */
-.Article_imgone{height:30vw;background-image:url(../images/Articleone.png)}
+/*目的地开始*/
+#md_head{
+	background-color: #01a0ea;
+}
+#md_head>a,#md_head>h1{
+	color: #fff;
+}
+#mdtlt{
+	padding-top:6%;
+	padding-bottom: 6%;
+	text-align: center;
+	background: #fff;
+}
+#mdtlt>p{
+	font-size: 1.3em;
+	color: #333;
+}
+.mdlist>ul{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 auto;
+}
+.mdlist>ul>li{
+	width: 33%;
+	margin-top: 2%;
+}
+.mdlist>ul>li>img{
+	width:97%;
+}
+.mdbtn{
+	text-align: center;
+	background: #fff;
+	padding-bottom: 25%;
+}
+.mdbtn>button{
+	background: #01a0ea;
+	width: 95%;
+	padding:12px;
+}
+/*目的地结束*/
 
 
-/*
- * news
- */
-.news_imgone{height:30vw;background-image:url(../images/scheduleone.png)}
-.news_imgtow{height:30vw;background-image:url(../images/newstwobg.png)}
-/*scheduleone*/
-.myrc_div{border: #FFFFFF 1px solid;height: 180px;border-radius: 20px;background: #FFFFFF;margin-top: 10px;opacity: 0.9}
-.myrc_div1{border: #fff 1px solid;height: 30px;margin-top: 14px;border-bottom-color: #D3D4D3;border-left-color: #00c4cb;}
-.myrc_div2{height: 28px;width: 70px;float: left;background: #039cae;color: #FFFFFF;padding: 3px;}
-.myrc_title{float: left;padding: 3px;}
-.myrc_div3{border: #FFFFFF 1px solid;height: 100px;border-bottom-color: #D3D4D3;}
-.myrc_center{width: 50%;float: left;height: 100px;}
-.myrc_center_title{color:#aca4a4;margin-top: 10px;}
-.myrc_center_time{font-size: 30px;margin-top: 10px;}
-.myrc_center_shijian{color:#aca4a4;font-size: 13px;}
-.myrc_foot_img{width: 50%;float: left;height: 30px;padding: 2px;}
-.myrc_foot_img_style{vertical-align:middle;width: 20px;}
-.myrc_foot_text{color: #039cae;vertical-align:middle;font-size: 18px;}
-/*newstwo*/
-.newstwo_div{background: #FFFFFF;height: 100%;}
-.newstwo_div1{position: relative;}
-.newstwo_div2{height: 60%;}
-.newstwo_div3{height: 100%;width:85%;margin-left:15%;}
-.newstwo_div4{border: #BBBBBB 1px solid;height: 90%;width: 1px;margin-left:15%;float:left;}
-.newstwo_nav{width: 100%;position: absolute;z-index: 10; padding: 15px;}
-.newstwo_center{margin-left: -50px;text-align: center;font-size: 13px;color: #999999;float: left;}
-.newstwo_center1{padding-top: 9px;margin-left: -6px;color: #939EED;float: left;}
-.newstwo_center2{padding-top: 11px;float: left;margin-left: 5px;}
-.newstwo_foot{position: fixed;bottom: 30px;width:100%;height: 50px;}
-.newstwo_foot_button{height: 50px;width: 50px;background:#6caef6 ;border-radius: 50px;float: right;margin-right: 20px;}
-.newstwo_foot_img{width: 50px;}
-
-/*trip 要的*/
-.trip_ul{background-color: #efeff4;}
-.tri_li_left{height: 150px;border-radius: 10px;background: #FFFFFF;overflow: hidden;position:relative}
-.tri_li_div1{width: 30%;height: 150px;border-top-left-radius: 10px;border-bottom-left-radius: 10px;background: #6EB2E3;overflow: hidden;text-align: center;padding: 10px;}
-.tri_li_p{color: #FFFFFF;}
-.tri_li_span{color: #FFFFFF;font-size: 1.5em;}
-.tri_li_div2{position: absolute;bottom: 10px;color: #FFFFFF;}
-.tri_li_right{height: 150px;overflow: hidden;padding: 20px;position: relative;}
-.tri_li_cardzh{position: absolute;bottom: 7px;}
-.tri_li_cardzh_p{font-size: 0.7em;}
-.tri_li_cardzh_dv{margin-left: 2em;}
-.tri_li_hr{border:none;border-top:1px dotted #6EB2E3;}
-
-
-
+/*trip行程*/
+.trip_ul{
+	background-color: #efeff4;
+	}
+.tri_li_left{
+	height: 150px;
+	border-radius: 10px;
+	background: #FFFFFF;
+	overflow: hidden;
+	position:relative;
+	}
+.tri_li_div1{
+	width: 30%;
+	height: 150px;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	background: #6EB2E3;
+	overflow: hidden;
+	text-align: center;
+	padding: 10px;
+	}
+.tri_li_p{
+	color: #FFFFFF;
+	}
+.tri_li_span{
+	color: #FFFFFF;
+	font-size: 1.5em;
+	}
+.tri_li_div2{
+	position: absolute;
+	bottom: 10px;
+	color: #FFFFFF;
+	}
+.tri_li_right{
+	height: 150px;
+	overflow: hidden;
+	padding: 20px;
+	position: relative;
+	}
+.tri_li_cardzh{
+	position: absolute;
+	bottom: 7px;
+	}
+.tri_li_cardzh_p{
+	font-size: 0.7em;
+	}
+.tri_li_cardzh_dv{
+	margin-left: 2em;
+	}
+.tri_li_hr{
+	border:none;
+	border-top:1px dotted #6EB2E3;
+	}
 
 /*trip-details*/
-.tripdetails_topbg{background:#6EB2E3;height: 100px;}
-.tripdetails_card{height: 200px;margin: 10px;border-radius: 10px;margin-top: -70px;background:#5592bd;}
-.tripdetails_card_a{height: 70px;border-top-left-radius: 10px;border-top-right-radius: 10px;background: #FFFFFF;padding-top: 15px;}
-.tripdetails_card_span{font-size: 14px;}
-.tripdetails_card_text{color: #FFFFFF;}
-.tripdetails_span1{color:#70B2F9;padding-right: 15px;}
-.tripdetails_ul{margin-top: 30px;}
-.tripdetails_topbg
-
-
-
-
-
-
-
-
-
-/*
- * Other
- */
-.other_imgone{height:30vw;background-image:url(../images/abuts.png)}
-/*newtwoadd*/
-.newstwoadd_head{background: #FFFFFF;}
-.newstwoadd_textarea{height: 150px;}
-.newstwoadd_textarea1{height: 100px;margin-top: 20px;}
-.newstwoadd_ul{margin-top: -15px;}
-.newstwoadd_ul1{margin-top: 20px;}
-.newstwoadd_div{background: #FFFFFF;height: 120px;}
-.newstwoadd_div1{width: 40%;height: 120px;float: left;margin-top: 17px;}
-.newstwoadd_text{margin-left: 12px;color:#7C8083;}
-.newstwoadd_text1{margin-left: 12px;color:#7C8083;margin-top: 10px;}
-.newstwoadd_text2{margin-left: 12px;margin-top: 10px;}
-.newstwoadd_text3{color: #828589;float: right;padding-right: 25px;font-size: 15px;}
-.newstwoadd_img{width: 20%;height: 120px;float: left;padding-top: 20px;margin-top: 10px;}
-/*other-business-card.html*/
-.business_content{background: #FFFFFF;}
-.business_topbg{background:#6b8698;height: 250px;border-bottom-left-radius:30%;border-bottom-right-radius: 30%;}
-.business_topbg_icon{color: #FFFFFF;}
-.business_topbg_user{margin-top: 50px;width: 106px;position: relative;}
-.business_name_card{height: 130px;margin: 25px;margin-top: -80px;background: #6EB2E3;border-radius: 10px;}
-.business_name_card_div{padding:20px;color: #FFFFFF;font-size: 20px;}
-.business_name_card_namecn{margin-left: 18%;}
-.business_name_card_nameen{font-size: 15px;margin-top: 3px;margin-left: 3px;}
-.business_name_card_nameen_top{margin-top: 13px;}
-.business_name_ul{margin-top: 50px;}
-.business_name_ul_icon{padding-left: 30px;}
-.business_name_ul_span{padding-left: 50px;}
-.business_foot{height: 70px;margin: 20px;background: #6EB2E3;border-radius: 50px;margin-top: 50px;}
-.business_foot_div{padding: 15px;color: #FFFFFF;font-size: 20px;margin-left: 7px;text-align: center;}
-.business_foot_div_text{font-size: 10PX;margin-top: 3PX;}
-/*other-Personal-Center*/
-.Personal_topbg{height: 250px;background:#3EA0FB;}
-.Personal_uerimg{display: block;margin: auto;width: 90px;padding-top: 50px;}
-.Personal_top_text{width: 33%;text-align: center;margin-top: 10px;color: #FFFFFF;}
-.Personal_top_span{font-size: 13px;}
-.Personal_dingdan{margin: 10px;height: 120px;background: #FFFFFF;border-radius: 15px;margin-top: -40px;}
-.Personal_mydd{padding-left: 10px;padding-top: 10px;}
-.Personal_mydd_colo{font-size: 25px;color:#DDAD69;margin-right: 10px;}
-.Personal_mydd_span{font-size: 15px;}
-.Personal_mydd_div{text-align: center;width: 25%;}
-.Personal_mydd_p{margin-top: 5px;font-size: 11px;}
-.Personal_ul{margin: 10px;border-radius: 10px;}
-.Personal_ul_icon{font-size: 22px;color:#6E91AC ;}
-.Personal_mdyy_div2{text-align: center;width: 25%;margin-top: -7px;}
-/*other-eatmenu*/
-.eatmenu_divnar{background:#3E4658;height: 130px;}
-.eatmenu_narspan{color: #FFFFFF;}
-.eatmenu_xxk{margin-top: 70px;}
-.eatmenu_xxkcolor{color:#9a9a9a;}
-.eatmenu_order{border-radius: 20px;background: #FFFFFF;width:120px;height: 30px;text-align: center;font-size: 14px;padding-top: 3px;margin-top: 6px;color:#55AAE8;margin-left: 35%;}
-.eatmenu_group{margin-top: 40px;}
-.eatmenu_content{height: 140px;border-radius: 10px;background: #FFFFFF;}
-.eatmenu_img{width: 50px;border-radius: 10px;}
-.eatmenu_btn{width: 45%;}
-.eatmenu_bc{color:#32AAFF;}
-.eatmenu_card{background:#32AAFF;border-radius: 50%;height: 40px;width: 40px;text-align: center;margin-left: 20px;color: #FFFFFF;padding-top: 8px;}
-.eatmenu_foot{margin-top: 9px;}
-.eatmenu_fd{overflow:hidden;}
-.eatmenu_fd1{overflow:hidden;padding: 10px;}
-.eatmenu_font_top{padding-top: 4px;}
-/*business2-card.html*/
-.business2_head{height: 250px;background: #0088CE;overflow:hidden;}
-.business2_border{border: #FFE08D 1px solid;border-radius: 10px;height: 200px;margin-top: 60px;margin-left: 20px;margin-right: 20px;}
-.business2_img{width: 100px;margin-top: 10%;}
-.business2_name{background:#FFE08D;height: 50px;overflow:hidden;}
-.business2_nd{margin-top: 15px;font-size: 20px;font-weight: bold}
+#xzdetail_head{
+	background-color: #01a0ea;
+}
+#xzdetail_head>h1{
+	color: #fff;
+	font-size: 18px;
+}
+.tripdetails_topbg{
+	background:#6EB2E3;
+	height: 100px;
+	}
+.tripdetails_card{
+	height: 200px;
+	margin: 10px;
+	border-radius: 10px;
+	margin-top: -70px;
+	background:#5592bd;
+	}
+.tripdetails_card_a{
+	height: 70px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	background: #FFFFFF;
+	padding-top: 15px;
+	}
+.tripdetails_card_span{
+	font-size: 14px;
+	}
+.tripdetails_card_text{
+	color: #FFFFFF;
+	}
+.tripdetails_span1{
+	color:#70B2F9;
+	padding-right: 15px;
+	}
+.tripdetails_ul{
+	margin-top: 30px;
+	}

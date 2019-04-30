@@ -149,7 +149,7 @@
 .local_tab li{
 	width: 25%;
 	text-align: center;
-	border:1px solid  blue;
+	border:1px solid  #a5a5a5;
 	margin-left: 10px;
 	margin-top: 10px;
 	margin-bottom: 20px;
@@ -157,17 +157,29 @@
 .local_tab li a{
 	font-size: 1.2em;
 	padding-top: 10px;
+	color: #A5A5A5;
 }
-
-
+.local_tab li.food_on{
+	border:1px solid  blue;
+}
+.local_tab li a.food_on1{
+	color: blue;
+}
 div.shows{
 	display: block;
 }
 .hidden{
 	display: none;
 }
-/*#content1{
-	width: 80%;
-}*/
+#rel_more{
+	background: #fff;
+	text-align: center;
+}
+#rel_more>button{
+	width:95%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	color: #A5A5A5;
+}
 /*6.当地玩乐结束*/
 /*主体部分结束*/

@@ -57,7 +57,9 @@
 		],
 		"refer": [
 			"html/zixun.html",
-			"html/xingcheng.html"
+			"html/xingcheng.html",
+			"html/mudi.html",
+			"html/mine.html"
 		]
 	},
 	"html/zixun.html": {
@@ -85,7 +87,10 @@
 			"1.mp3",
 			"img/zixun/yao1.jpg",
 			"img/zixun/mei4.jpg",
-			"js/style.js"
+			"js/style.js",
+			"fonts/mui.ttf",
+			"js/mui.min.js",
+			"css/mui.min.css"
 		]
 	},
 	"html/xingcheng.html": {
@@ -95,6 +100,53 @@
 			"fonts/mui.ttf",
 			"css/mui.min.css",
 			"css/style.css"
+		],
+		"refer": [
+			"html/xcdetail.html"
+		]
+	},
+	"html/mudi.html": {
+		"resources": [
+			"img/mudi/md4.jpg",
+			"img/mudi/md8.jpg",
+			"img/mudi/md2.jpg",
+			"img/mudi/md7.jpg",
+			"img/mudi/md9.jpg",
+			"img/mudi/md5.jpg",
+			"css/style.css",
+			"img/mudi/md3.jpg",
+			"img/mudi/md6.jpg",
+			"img/mudi/md1.jpg"
+		]
+	},
+	"html/mine.html": {
+		"resources": [
+			"img/mine/ic1.jpg",
+			"img/mine/ic2.jpg",
+			"img/mine/m6.jpg",
+			"fonts/mui.ttf",
+			"img/mine/m1.jpg",
+			"css/style.css",
+			"img/mine/m7.jpg",
+			"img/mine/m4.jpg",
+			"img/mine/ic3.jpg",
+			"img/mine/m3.jpg",
+			"js/mui.min.js",
+			"css/mui.min.css",
+			"img/mine/m5.jpg",
+			"img/mine/denglu.jpg",
+			"img/mine/ic4.jpg",
+			"img/mine/m2.jpg",
+			"css/reset.css"
+		],
+		"refer": [
+			"html/login.html"
+		]
+	},
+	"html/login.html": {
+		"resources": [
+			"img/login/bg.png",
+			"img/login/loginimg.png"
 		]
 	}
 }
