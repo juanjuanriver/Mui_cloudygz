@@ -1,152 +1,152 @@
 {
-	"index.html": {
-		"resources": [
-			"js/mui.min.js",
-			"css/mui.min.css",
-			"fonts/mui.ttf",
-			"img/11.jpg",
-			"img/33.jpg",
-			"img/22.jpg",
-			"css/animate.min.css",
-			"css/index.css",
-			"html/relindex.html"
-		],
-		"refer": [
-			"html/relindex.html"
-		]
-	},
-	"html/relindex.html": {
-		"resources": [
-			"img/relindex/huwai.jpg",
-			"img/relindex/hot2.jpg",
-			"img/relindex/hottit.jpg",
-			"img/relindex/localtlt.jpg",
-			"img/relindex/b3.jpg",
-			"img/relindex/hot1.jpg",
-			"js/swiper.min.js",
-			"js/relindex.js",
-			"img/relindex/icon6.jpg",
-			"img/relindex/b1.jpg",
-			"img/relindex/headri.jpg",
-			"img/relindex/icon1.jpg",
-			"img/relindex/hot5.jpg",
-			"css/iconfont.css",
-			"img/relindex/food4.jpg",
-			"img/relindex/icon4.jpg",
-			"img/relindex/food3.jpg",
-			"img/relindex/icon5.jpg",
-			"img/relindex/icon2.jpg",
-			"img/relindex/food1.jpg",
-			"img/relindex/icon8.jpg",
-			"img/relindex/b2.jpg",
-			"css/relindex.css",
-			"img/relindex/hot3.jpg",
-			"img/relindex/foodtlt.jpg",
-			"img/relindex/icon7.jpg",
-			"css/swiper.min.css",
-			"img/relindex/hot4.jpg",
-			"img/relindex/food2.jpg",
-			"img/relindex/b4.jpg",
-			"img/relindex/hot6.jpg",
-			"css/reset.css",
-			"img/relindex/icon3.jpg",
-			"img/relindex/activetlt.jpg",
-			"fonts/mui.ttf",
-			"js/mui.min.js",
-			"css/mui.min.css"
-		],
-		"refer": [
-			"html/zixun.html",
-			"html/xingcheng.html",
-			"html/mudi.html",
-			"html/mine.html"
-		]
-	},
-	"html/zixun.html": {
-		"resources": [
-			"img/zixun/gui4.jpg",
-			"img/zixun/yao4.jpg",
-			"js/mui.pullToRefresh.js",
-			"img/zixun/gui3.jpg",
-			"img/zixun/pu1.jpg",
-			"3.mp3",
-			"img/zixun/pu3.jpg",
-			"img/zixun/gui2.jpg",
-			"css/style.css",
-			"img/zixun/pu4.jpg",
-			"img/zixun/gui1.jpg",
-			"img/zixun/mei1.jpg",
-			"4.mp3",
-			"img/zixun/pu2.jpg",
-			"img/zixun/yao2.jpg",
-			"img/zixun/yao3.jpg",
-			"img/zixun/mei2.jpg",
-			"css/iconfont2.css",
-			"img/zixun/mei3.jpg",
-			"2.mp3",
-			"1.mp3",
-			"img/zixun/yao1.jpg",
-			"img/zixun/mei4.jpg",
-			"js/style.js",
-			"fonts/mui.ttf",
-			"js/mui.min.js",
-			"css/mui.min.css"
-		]
-	},
-	"html/xingcheng.html": {
-		"resources": [
-			"css/iconfont1.css",
-			"js/mui.min.js",
-			"fonts/mui.ttf",
-			"css/mui.min.css",
-			"css/style.css"
-		],
-		"refer": [
-			"html/xcdetail.html"
-		]
-	},
-	"html/mudi.html": {
-		"resources": [
-			"img/mudi/md4.jpg",
-			"img/mudi/md8.jpg",
-			"img/mudi/md2.jpg",
-			"img/mudi/md7.jpg",
-			"img/mudi/md9.jpg",
-			"img/mudi/md5.jpg",
-			"css/style.css",
-			"img/mudi/md3.jpg",
-			"img/mudi/md6.jpg",
-			"img/mudi/md1.jpg"
-		]
-	},
-	"html/mine.html": {
-		"resources": [
-			"img/mine/ic1.jpg",
-			"img/mine/ic2.jpg",
-			"img/mine/m6.jpg",
-			"fonts/mui.ttf",
-			"img/mine/m1.jpg",
-			"css/style.css",
-			"img/mine/m7.jpg",
-			"img/mine/m4.jpg",
-			"img/mine/ic3.jpg",
-			"img/mine/m3.jpg",
-			"js/mui.min.js",
-			"css/mui.min.css",
-			"img/mine/m5.jpg",
-			"img/mine/denglu.jpg",
-			"img/mine/ic4.jpg",
-			"img/mine/m2.jpg",
-			"css/reset.css"
-		],
-		"refer": [
-			"html/login.html"
-		]
-	},
-	"html/login.html": {
-		"resources": [
-			"img/login/bg.png",
-			"img/login/loginimg.png"
-		]
-	}
+  "index.html": {
+    "resources": [
+      "js/mui.min.js",
+      "css/mui.min.css",
+      "fonts/mui.ttf",
+      "img/11.jpg",
+      "img/33.jpg",
+      "img/22.jpg",
+      "css/animate.min.css",
+      "css/index.css",
+      "html/relindex.html"
+    ],
+    "refer": [
+      "html/relindex.html"
+    ]
+  },
+  "html/relindex.html": {
+    "resources": [
+      "img/relindex/huwai.jpg",
+      "img/relindex/hot2.jpg",
+      "img/relindex/hottit.jpg",
+      "img/relindex/localtlt.jpg",
+      "img/relindex/b3.jpg",
+      "img/relindex/hot1.jpg",
+      "js/swiper.min.js",
+      "js/relindex.js",
+      "img/relindex/icon6.jpg",
+      "img/relindex/b1.jpg",
+      "img/relindex/headri.jpg",
+      "img/relindex/icon1.jpg",
+      "img/relindex/hot5.jpg",
+      "css/iconfont.css",
+      "img/relindex/food4.jpg",
+      "img/relindex/icon4.jpg",
+      "img/relindex/food3.jpg",
+      "img/relindex/icon5.jpg",
+      "img/relindex/icon2.jpg",
+      "img/relindex/food1.jpg",
+      "img/relindex/icon8.jpg",
+      "img/relindex/b2.jpg",
+      "css/relindex.css",
+      "img/relindex/hot3.jpg",
+      "img/relindex/foodtlt.jpg",
+      "img/relindex/icon7.jpg",
+      "css/swiper.min.css",
+      "img/relindex/hot4.jpg",
+      "img/relindex/food2.jpg",
+      "img/relindex/b4.jpg",
+      "img/relindex/hot6.jpg",
+      "css/reset.css",
+      "img/relindex/icon3.jpg",
+      "img/relindex/activetlt.jpg",
+      "fonts/mui.ttf",
+      "js/mui.min.js",
+      "css/mui.min.css"
+    ],
+    "refer": [
+      "html/zixun.html",
+      "html/xingcheng.html",
+      "html/mudi.html",
+      "html/mine.html"
+    ]
+  },
+  "html/zixun.html": {
+    "resources": [
+      "img/zixun/gui4.jpg",
+      "img/zixun/yao4.jpg",
+      "js/mui.pullToRefresh.js",
+      "img/zixun/gui3.jpg",
+      "img/zixun/pu1.jpg",
+      "3.mp3",
+      "img/zixun/pu3.jpg",
+      "img/zixun/gui2.jpg",
+      "css/style.css",
+      "img/zixun/pu4.jpg",
+      "img/zixun/gui1.jpg",
+      "img/zixun/mei1.jpg",
+      "4.mp3",
+      "img/zixun/pu2.jpg",
+      "img/zixun/yao2.jpg",
+      "img/zixun/yao3.jpg",
+      "img/zixun/mei2.jpg",
+      "css/iconfont2.css",
+      "img/zixun/mei3.jpg",
+      "2.mp3",
+      "1.mp3",
+      "img/zixun/yao1.jpg",
+      "img/zixun/mei4.jpg",
+      "js/style.js",
+      "fonts/mui.ttf",
+      "js/mui.min.js",
+      "css/mui.min.css"
+    ]
+  },
+  "html/xingcheng.html": {
+    "resources": [
+      "css/iconfont1.css",
+      "js/mui.min.js",
+      "fonts/mui.ttf",
+      "css/mui.min.css",
+      "css/style.css"
+    ],
+    "refer": [
+      "html/xcdetail.html"
+    ]
+  },
+  "html/mudi.html": {
+    "resources": [
+      "img/mudi/md4.jpg",
+      "img/mudi/md8.jpg",
+      "img/mudi/md2.jpg",
+      "img/mudi/md7.jpg",
+      "img/mudi/md9.jpg",
+      "img/mudi/md5.jpg",
+      "css/style.css",
+      "img/mudi/md3.jpg",
+      "img/mudi/md6.jpg",
+      "img/mudi/md1.jpg"
+    ]
+  },
+  "html/mine.html": {
+    "resources": [
+      "img/mine/ic1.jpg",
+      "img/mine/ic2.jpg",
+      "img/mine/m6.jpg",
+      "fonts/mui.ttf",
+      "img/mine/m1.jpg",
+      "css/style.css",
+      "img/mine/m7.jpg",
+      "img/mine/m4.jpg",
+      "img/mine/ic3.jpg",
+      "img/mine/m3.jpg",
+      "js/mui.min.js",
+      "css/mui.min.css",
+      "img/mine/m5.jpg",
+      "img/mine/denglu.jpg",
+      "img/mine/ic4.jpg",
+      "img/mine/m2.jpg",
+      "css/reset.css"
+    ],
+    "refer": [
+      "html/login.html"
+    ]
+  },
+  "html/login.html": {
+    "resources": [
+      "img/login/bg.png",
+      "img/login/loginimg.png"
+    ]
+  }
 }
