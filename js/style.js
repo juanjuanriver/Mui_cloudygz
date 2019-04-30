@@ -21,6 +21,12 @@ window.onload = function(){
                 checkAudio();
             }
 	    
-	    
+	//login
+		document.getElementById("denglu").addEventListener('tap',function(){
+	    mui.openWindow({
+	      url:'login.html',
+	      id:'lg_body',
+	    })
+	})
 	
 }

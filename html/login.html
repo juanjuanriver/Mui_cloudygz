@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	<link href="../css/mui.min.css" rel="stylesheet" />
+	<link rel="stylesheet" href="../css/style.css" />
+	<link rel="stylesheet" href="../css/reset.css" />
+	<script src="../js/mui.min.js"></script>
+	<style>
+		.mui-card {border-radius: 20px;}
+		.mui-content {padding: 10px;}
+	</style>
+</head>
+<body class="lg_body" id="lg_body">
+		<header id="header" class="mui-bar mui-bar-transparent">
+			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+		</header>
+		<div class="mui-content lg_bgimg"> 
+			<div class="lg_div">
+			    <center>
+			    	<div><img src="../img/login/loginimg.png" class="lg_imgg"/></div>
+			    		<!--用户登入-->
+						<div class="mui-card-content-inner" >
+							<a href="#middlePopover" class="mui-btn mui-btn-primary mui-btn-block mui-btn-outlined" style="padding: 5px 20px;border-radius: 20px;">登录</a>
+						</div>
+						<div class="mui-card-content-inner" >
+							<a href="#middlePopover2" class="mui-btn mui-btn-primary mui-btn-block mui-btn-outlined" style="padding: 5px 20px;border-radius: 20px;">注册</a>
+						</div>
+						<button class="lg_recpass">忘记密码</button>
+			    </center>
+			</div>   
+		</div>
+		<!--登入弹窗-->
+		<div id="middlePopover" class="mui-popover" style="height: 240px;">
+			<div class="mui-popover-arrow"></div>
+			<div class="mui-scroll-wrapper">
+				<div class="mui-scroll">
+						<div class="mui-card">
+							<div class="mui-card-content">
+								<div class="mui-card-content-inner">
+									账号:<input id='account' type="number" class="mui-input-clear mui-input" placeholder="请输入账号">
+								</div>
+								<div class="mui-card-content-inner">
+									密码:<input id='account' type="number" class="mui-input-clear mui-input" placeholder="请输入密码">
+								</div>
+							</div>
+						</div>
+						<div class="mui-card-content-inner" >
+							<a href="#" class="mui-btn mui-btn-primary mui-btn-block mui-btn-outlined" style="padding: 5px 20px;border-radius: 20px;">立即登录</a>
+						</div>
+				</div>
+			</div>
+		</div>
+		<!--注册弹窗-->
+		<div id="middlePopover2" class="mui-popover" style="height: 310px;">
+			<div class="mui-popover-arrow"></div>
+			<div class="mui-scroll-wrapper">
+				<div class="mui-scroll">
+					<div class="mui-card">
+						<div class="mui-card-content">
+							<div class="mui-card-content-inner">
+								用户:<input id='account' type="number" class="mui-input-clear mui-input" placeholder="请注册用户">
+							</div>
+							<div class="mui-card-content-inner">
+								密码:<input id='account' type="number" class="mui-input-clear mui-input" placeholder="请输入密码">
+							</div>
+							<div class="mui-card-content-inner">
+								密码:<input id='account' type="number" class="mui-input-clear mui-input" placeholder="请确定密码">
+							</div>
+						</div>
+							<div class="mui-card-content-inner" >
+							<a href="#" class="mui-btn mui-btn-primary mui-btn-block mui-btn-outlined" style="padding: 5px 20px;border-radius: 20px;">立即注册</a>
+						</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--其它-->
+		<div class="login_qita">
+			<p><i></i>其它账号登录<i></i></p>
+			<ul>
+				<li class="mui-icon mui-icon-weibo"></li>
+				<li class="mui-icon mui-icon-qq"></li>
+				<li class="mui-icon mui-icon-weixin"></li>
+			</ul>
+		</div>
+</body>
+</html>
